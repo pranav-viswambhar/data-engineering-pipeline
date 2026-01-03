@@ -9,9 +9,11 @@ ORDER BY total_revenue DESC;
 
 -- Top customers by number of orders
 SELECT
-    c.customer_name,
+    c.email AS customer,
     COUNT(o.order_id) AS total_orders
 FROM customers c
 JOIN orders o ON c.customer_id = o.customer_id
-GROUP BY c.customer_name
+GROUP BY c.email
 ORDER BY total_orders DESC;
+
+
