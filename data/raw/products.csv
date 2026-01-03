@@ -1,0 +1,11 @@
+product_id,product_name,category,price
+101,Laptop,Electronics,55000
+102,Mobile,Electronics,20000
+103,Headphones,Accessories,3000
+104,Keyboard,Accessories,1500
+105,Monitor,Electronics,12000
+106,Mouse,Accessories,800
+107,Smartwatch,Electronics,9000
+108,Tablet,Electronics,25000
+109,Webcam,Accessories,4000
+110,Power Bank,Accessories,2000
